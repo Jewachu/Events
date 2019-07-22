@@ -1,7 +1,5 @@
 # Event Organizer
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-![](https://img.shields.io/badge/Android-project-brightgreen.svg)
-![](https://img.shields.io/badge/Language-Java%20-orange.svg)
+This is an event organizer Mobile app
 ## Developed by
 **Omonge Calvince** ![](https://img.shields.io/badge/Programmer-Verified-brightgreen.svg)
 ## Description
@@ -34,5 +32,5 @@ As of now, there are no known bugs. However you are free to contact me if you co
 ## Contact Information
  contact me @: calmosh1421@gmail.com
 ## License
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-125x28.png?v=103)](https://github.com/calvince/Events/blob/master/License)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-125x28.png?v=103)](https://github.com/calvince/Events/blob/master/LICENSE)
 
