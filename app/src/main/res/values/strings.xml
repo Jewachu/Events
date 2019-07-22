@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Events</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_share">Share</string>
+    <string name="title_home">Home</string>
+    <string name="text1">Text1</string>
+    <string name="nomaz">Nomaz</string>
+    <string name="favourite">Favourite</string>
+    <string name="search">Search</string>
+    <string name="favourites">Favourites</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="event_abt">If you interested in IT event related, You mus t go to :\nHome page to check for events or \nGo to search module to search for relevant event or \nView favourite events \nSubscribe afterwards where the doc is sent to your email address</string>
+    <string name="event_version">\nThis is version 1.0 \nDeveloped by Omonge Calvince in collaboration with Moringa School</string>
+    <string name="version">Version</string>
+    <string name="moringa">Moringa</string>
+    <string name="mine_alone">mine alone</string>
+    <string name="book_event">Book Event</string>
+    <string name="book_grao">Book Grao</string>
+    <string name="venue">Venue</string>
+    <string name="enter_event">Enter Event</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="venue_this">Venue</string>
+    <string name="event_this">Event</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="event_organizer">Event Organizer</string>
+    <string name="event">Event</string>
+    <string name="date_th">Date</string>
+    <string name="date_this">Date</string>
+    <string name="event_maber">Event</string>
+    <string name="location">Location</string>
+    <string name="search_this">Search</string>
+    <string-array name="events">
+        <item>Kisumu</item>
+        <item>Kisumu</item>
+    </string-array>
+    <string-array name="dates">
+        <item>12/12/2019</item>
+        <item>11/12/2019</item>
+    </string-array>
+    <string-array name="venue">
+        <item>Nairobi</item>
+        <item>Baras</item>
+    </string-array>
+    <string name="title_activity_all_detail">AllDetail</string>
+
+
+</resources>
