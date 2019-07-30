@@ -18,8 +18,7 @@ import butterknife.ButterKnife;
 
 public class AllDetail extends AppCompatActivity {
     @BindView(R.id.textView5) TextView txtEvent;
-    @BindView(R.id.textView6) TextView txtDate;
-    @BindView(R.id.textView7) TextView txtVenue;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,21 +31,12 @@ public class AllDetail extends AppCompatActivity {
         ab.setDisplayHomeAsUpEnabled(true);
         ButterKnife.bind(this);
 
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
         Intent intent = getIntent();
       String event= intent.getStringExtra("event");
       String date = intent.getStringExtra("date");
       String venue = intent.getStringExtra("venue");
        txtEvent.setText(event);
-        txtDate.setText(date);
-        txtVenue.setText(venue);
+
 
 
     }
