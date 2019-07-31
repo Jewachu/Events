@@ -18,7 +18,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-
         android:background="@drawable/almosttransparent"
         android:padding="10dp">
 
@@ -59,68 +58,6 @@
                 android:layout_alignBaseline="@id/vneTextView"
                 android:layout_alignParentEnd="true"
                 android:id="@+id/monTextView"
-                android:text="@string/nov_22"
-                android:textColor="@color/primaryLightColor"
-                />
-
-        </RelativeLayout>
-
-
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/eventImageView1"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/bestpic"/>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-
-        android:background="@drawable/almosttransparent"
-        android:padding="10dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/eventNameTextView1"
-            android:textSize="12sp"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:text="@string/event_name_1"
-            android:textColor="@color/colorPrimary"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:text="@string/fri_nov_22_11_00am"
-            android:layout_height="wrap_content"
-            android:id="@+id/eventDateTextView2"
-            android:textStyle="italic"/>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/vneTextView3"
-                android:text="@string/nairobi_nairobi_kenya"
-                android:textColor="@color/colorAccent"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/vneTextView3"
-                android:layout_alignParentTop="false"
-                android:layout_alignBaseline="@id/vneTextView3"
-                android:layout_alignParentEnd="true"
-                android:id="@+id/monTextView4"
                 android:text="@string/nov_22"
                 android:textColor="@color/primaryLightColor"
                 />

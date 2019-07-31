@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
@@ -47,6 +48,7 @@ public class DetailDialog extends AppCompatDialogFragment {
                         String date = edDate_th.getText().toString();
                         if (TextUtils.isEmpty(edtVenue.getText()) && TextUtils.isEmpty(edDate_th.getText()) && TextUtils.isEmpty(edEvent.getText())){
                             edtVenue.setError("Input fields");
+                            Toast.makeText(getActivity(),"Please input this details",Toast.LENGTH_SHORT).show();
                         }else {
                             Intent intent = new Intent(getActivity(),AllDetail.class);
                             intent.putExtra("event",event);
