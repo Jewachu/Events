@@ -15,8 +15,6 @@
     <string name="version">Version</string>
     <string name="moringa">Moringa</string>
     <string name="mine_alone">mine alone</string>
-    <string name="book_event">Book Event</string>
-    <string name="book_grao">Book Grao</string>
     <string name="venue">Venue</string>
     <string name="enter_event">Enter Event</string>
     <string name="enter_date">Enter Date</string>
@@ -30,19 +28,21 @@
     <string name="event_maber">Event</string>
     <string name="location">Location</string>
     <string name="search_this">Search</string>
-    <string-array name="events">
-        <item>Kisumu</item>
-        <item>Kisumu</item>
-    </string-array>
-    <string-array name="dates">
-        <item>12/12/2019</item>
-        <item>11/12/2019</item>
-    </string-array>
-    <string-array name="venue">
-        <item>Nairobi</item>
-        <item>Baras</item>
-    </string-array>
     <string name="title_activity_all_detail">AllDetail</string>
+    <string name="event_name_1">Event Name</string>
+    <string name="fri_nov_22_11_00am">Fri,Nov 22,11:00am</string>
+    <string name="nairobi_nairobi_kenya">Nairobi,Nairobi,Kenya</string>
+    <string name="nov_22">Nov 22</string>
+    <string name="descriptions_1">Descriptions</string>
+    <string name="book_this">Book This</string>
+    <string name="todo">TODO</string>
+    <string name="search_location">Search Location</string>
+    <string name="search_event_1">Search Event</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="book_1">Book</string>
+    <string name="even">Event Name</string>
+    <string name="todo_1">TODO</string>
 
 
 </resources>
