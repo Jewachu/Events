@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -35,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_home:
                     selectedFragment = new HomeFragment();
                     break;
-                case R.id.search_this:
-                    selectedFragment = new SearchFragment();
-                    break;
+//                case R.id.search_this:
+//                    selectedFragment = new SearchFragment();
+//                    break;
                 case R.id.favourite_this:
                     selectedFragment = new FavouriteFragment();
                     break;
