@@ -1,7 +1,8 @@
-package com.example.events;
+package com.example.events.ui;
 
 import android.os.Bundle;
 
+import com.example.events.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
